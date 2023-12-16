@@ -22,7 +22,7 @@ export const Navbar = () => {
 							{/* <Link to="/demo"> */}
 								{/* link al personaje */}
 								
-								<li className="dropdown-item">Favorito agregado <button className="btn btn-outline-link text-dark border border-none"><i class="fa-sharp fa-solid fa-trash"/></button></li>
+								<li className="dropdown-item">Favorito agregado <button className="btn btn-outline-link text-dark border border-none"><i className="fa-sharp fa-solid fa-trash"/></button></li>
 								{/* Debe ser dinamico, si se agrega a favoritos, se debe agregar a estos <lis> y se debe poder eliminar (solo mostrar el nombre y el link al personaje(etc))  */}
 							{/* </Link> */}
 						</ul>
